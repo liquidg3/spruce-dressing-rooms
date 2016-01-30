@@ -269,7 +269,7 @@ function fill(rgb_array, animate) {
 
 (function (socket) {
 
-    //console.log('ready');
+    console.log('ready');
     //fill([[0, 255, 0]]);
 
     socket.on('connection', function (con) {
